@@ -7,8 +7,6 @@
 
 // alisverisListem.push("yumurta");
 
-
-
 // ** .pop()
 // **** var olan dizideki en son elemanı silmemizi sağlar
 
@@ -30,7 +28,7 @@
 // **** Parantez içerisine dizi elemanları arasına koymak istediğimiz string'i parametre olarak girebiliriz. Eğer bir parametre vermezsek virgül bastırır.
 
 // let stringAlisverisListem = alisverisListem.join();
-// console.log(stringAlisverisListem); 
+// console.log(stringAlisverisListem);
 
 // console.log(alisverisListem);
 
@@ -58,7 +56,7 @@
 //         console.log('giris yaptiniz')
 //     } else {
 //         console.log('parola yanlis!!')
-//     } 
+//     }
 // } else {
 //     console.log('kullanici adi yanlis')
 // }
@@ -73,7 +71,7 @@
 //     console.log('kaldiniz :(')
 // }
 
-// and operatörü && 
+// and operatörü &&
 // true, true = true
 //true, false = false
 
@@ -134,21 +132,20 @@
 
 // soru4
 
-// let vize1 = 30;
-// let vize2 = 70;
-// let final = 70;
+let vize1 = 30;
+let vize2 = 70;
+let final = 70;
 
-// let ort = (vize1 + vize2 + final) / 3;
+let ort = (vize1 + vize2 + final) / 3;
 
-// if (ort >= 50 && final >= 50) {
-//     console.log('gecti')
-// } else if (final == 70 && ort < 50) {
-//     console.log('gectiniz')
-// }
-// else {
-//     console.log('kaldi')
-// }
+if (ort >= 50 && final >= 50) {
+  console.log("gecti");
+} else if (final == 70 && ort < 50) {
+  console.log("gectiniz");
+} else {
+  console.log("kaldi");
+}
 
-// let durum = (ort > 50) ? "gectiniz" : "kaldiniz"
+let durum = ort > 50 ? "gectiniz" : "kaldiniz";
 
-// console.log(durum);
+console.log(durum);
