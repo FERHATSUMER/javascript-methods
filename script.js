@@ -1,8 +1,148 @@
-//ARRAY
 
-// ** .push()
-// **** var olan bir diziye yeni bir eleman eklememizi sağlıyor eklemek istediğimiz elemanı parantez içerisine yazıyoruz
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function f1() {
+//     console.log('f1');
+// }
+
+// function f2() {
+//     console.log('f2');
+// }
+
+// function main() {
+//     console.log('main');
+    
+//     setTimeout(f1, 0);
+    
+//     new Promise((resolve, reject) =>
+//         resolve('I am a promise')
+//     ).then(resolve => console.log(resolve))
+    
+//     f2();
+// }
+
+// main();
+
+
+
+// let text = "Ferhat";
+// const myArr=text.split("",4);
+// // let word = myArr[0];
+// console.log(myArr)
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let text = fruits.join(" ");
+// console.log(text)
+
+
+
+
+// let text = "Ferhat Sümer 20 yaşında "
+// const myArr = text.split("")
+// console.log(myArr) 
+
+
+//funcition
+
+// function square(num) {
+//     return (num * num ); 
+// }
+// console.log(square(2))
+// console.log(square) //=>fonksiyonun kendisini gösterir.
+
+//function Declaration-->hoisted
+//--->>console yukarıda olsada çalışır.
+// console.log(square(2))
+
+// function square(num) {
+//     return (num * num ); 
+// }
+
+// const square=(num)=>{
+//     return (num * num);
+// }
+// console.log(square(6))
+
+// const myArr= [6, "Ferhat ", function() {console.log("Merhaba Ferhat");}]
+// myArr[2]();// sondaki parantez fonksiyonu çağırır.
+
+// const obj= {
+//     name:"Ferhat",
+//     age:5,
+//     func:function(){console.log("Ferhat");}
+// };
+// obj.func();
+// console.log(20 + (function(){return 10;})() );
+
+
+
+// let str = "";
+// for(let i=0;i<10;i++){
+//     str=str.concat(i);
+//     console.log(str);
+// }
+
+// const name='Ferhat';
+// const age=20;
+// const surName='Sümer';
+
+// if(name == 'Ferhat'){
+//     console.log('Merhaba Ferhat');
+// }
+// let isLoggedin = false
+// if (isLoggedin == true){
+//     console.log('giriş yaptiniz')
+// }else{
+//     console.log('giriş yapmadiniz!')
+// }
+
+// const  users=["FERHAT", "IsA", "TUgCe","MAnsUR"]
+// // const newUser= users.map(user=>user.toLowerCase())
+// const newUser= users.map(user=>user.toUpperCase())
+// console.log(newUser)
+
+// const newUser2=users. map(user=>{
+//   return{
+//     userName:user, shortName:`${user[0]}.`,newName:`${user[0].toUpperCase()}${user.slice(1).toLowerCase()} `
+//   }
+// })
+
+// console.log(newUser2)
+
+// ---- İf else koşul ifadeleri
+
+// if (3 < 4) {
+//     console.log('üç büyüktür')
+// } else {
+//     console.log('üç küçüktür')
+// }
+
+// let isLoggedin = false;
+
+// if (isLoggedin == true){
+//     console.log('giriş yaptiniz')
+// }else{
+//     console.log('giriş yapmadiniz!')
+// }
+
+//////////////ARRAY
+
+// ////////////** .push()
+// **** var olan bir diziye yeni bir eleman eklememizi sağlıyor eklemek istediğimiz elemanı parantez içerisine yazıyoruz1
 // let alisverisListem = ["elma","ekmek","süt"];
 
 // alisverisListem.push("yumurta");
@@ -31,22 +171,6 @@
 // console.log(stringAlisverisListem);
 
 // console.log(alisverisListem);
-
-// ---- İf else koşul ifadeleri
-
-// if (3 < 4) {
-//     console.log('üç büyüktür')
-// } else {
-//     console.log('üç küçüktür')
-// }
-
-// let isLoggedin = false;
-
-// if (isLoggedin == true){
-//     console.log('giriş yaptiniz')
-// }else{
-//     console.log('giriş yapmadiniz!')
-// }
 
 // let userName = 'esrasumer';
 // let password = '1234';
@@ -132,20 +256,20 @@
 
 // soru4
 
-let vize1 = 30;
-let vize2 = 70;
-let final = 70;
+// let vize1 = 30;
+// let vize2 = 70;
+// let final = 70;
 
-let ort = (vize1 + vize2 + final) / 3;
+// let ort = (vize1 + vize2 + final) / 3;
 
-if (ort >= 50 && final >= 50) {
-  console.log("gecti");
-} else if (final == 70 && ort < 50) {
-  console.log("gectiniz");
-} else {
-  console.log("kaldi");
-}
+// if (ort >= 50 && final >= 50) {
+//   console.log("gecti");
+// } else if (final == 70 && ort < 50) {
+//   console.log("gectiniz");
+// } else {
+//   console.log("kaldi");
+// }
 
-let durum = ort > 50 ? "gectiniz" : "kaldiniz";
+// let durum = ort > 50 ? "gectiniz" : "kaldiniz";
 
-console.log(durum);
+// console.log(durum);
